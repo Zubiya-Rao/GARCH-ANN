@@ -1,3 +1,4 @@
+# Load Libraries
 import numpy as np
 import pandas as pd
 from arch import arch_model
@@ -8,7 +9,7 @@ from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import mean_squared_error
 
 # Load your financial return data here
-stock_data = pd.read_csv('NYSEEE.csv')
+stock_data = pd.read_csv('NYSE.csv')
 returns = 100 * stock_data['Close'].pct_change().dropna()
 
 # Create sequences for ANN
