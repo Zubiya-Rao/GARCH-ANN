@@ -9,4 +9,4 @@ In the world of financial markets, understanding and forecasting stock price vol
 ![GARCH-ANN](https://github.com/Zubiya-Rao/GARCH-ANN/blob/main/4.png?raw=true)
 
 ## RMSE 
-![RMSE](https://github.com/Zubiya-Rao/GARCH-ANN/blob/main/Screenshot%20from%202023-09-12%2012-11-05.png?raw=true)
+![RMSE](https://github.com/Zubiya-Rao/GARCH-ANN/blob/main/RMSE.png?raw=true)
