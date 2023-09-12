@@ -1,3 +1,4 @@
+#importing libraries
 import numpy as np
 import pandas as pd
 from arch import arch_model
@@ -7,8 +8,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import mean_squared_error
 
-# Load your financial return data here
-stock_data = pd.read_csv('NYSEEE.csv')
+# Load your financial return data 
+stock_data = pd.read_csv('NYSE.csv')
 returns = 100 * stock_data['Close'].pct_change().dropna()
 
 # Create sequences for ANN
